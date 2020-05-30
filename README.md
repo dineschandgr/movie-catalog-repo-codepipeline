@@ -25,3 +25,12 @@ Create a AWS CodePipeline With the following stages
 
 Select elevated privileges for AWS CodeBuild project to push docker images
 Provide AWS CodeBuild Role with access to ECR so that CodeBuild builds the docker images and pushes it to AWS ECR
+
+
+pom.xml file uses Maven Spotify Docker plugin. This integrates Docker build with maven build
+The docker terminal must be running for this
+
+This enables maven to build the Spring boot jar file and then build the Docker images from the jar file and the java image with the
+maven command
+    1. clean package
+    
