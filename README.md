@@ -13,9 +13,9 @@ Create a AWS CodePipeline With the following stages
 1. Source (repo from github)
 2. Build using AWS CodeBuild with the following environment variables specified
     
-  CONTAINER_NAME -	movie-catalog-image	
-  AWS_DEFAULT_REGION -	ap-southeast-1	
-  REPOSITORY_URI	- ECR Repository URI
+    1. CONTAINER_NAME -	movie-catalog-image	
+    2. AWS_DEFAULT_REGION -	ap-southeast-1	
+    3. REPOSITORY_URI	- ECR Repository URI
 
 3. Deploy to AWS ECS with the following properties specified in appspec.yml file
 
