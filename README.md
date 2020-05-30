@@ -19,9 +19,9 @@ Create a AWS CodePipeline With the following stages
 
 3. Deploy to AWS ECS with the following properties specified in appspec.yml file
 
-  1. TaskDefinition: Task Definition ARN from AWS Fargate
-  2. Container Name
-  3. Container Port
+     1. TaskDefinition: Task Definition ARN from AWS Fargate
+     2. Container Name
+     3. Container Port
 
 Select elevated privileges for AWS CodeBuild project to push docker images
 Provide AWS CodeBuild Role with access to ECR so that CodeBuild builds the docker images and pushes it to AWS ECR
